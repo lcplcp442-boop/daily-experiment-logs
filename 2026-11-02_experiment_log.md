@@ -58,7 +58,7 @@
 
 ## 环境信息
 
-- 使用 `analy1` 环境；MACS2、bedtools、samtools、deeptools `bamCoverage` 和 dsub。
+- 使用 `analy1` 环境：samtools 1.24、bedtools 2.31.1、MACS2 2.2.9.1、deeptools/bamCoverage 3.5.5、Python 3.11.16；featureCounts 失败路径的版本未记录；dsub 版本未记录。
 - Ding 主作业申请 12 CPU、64 GB；BW 作业申请 84 CPU、128 GB；K92-TE 计数申请 12 CPU、48 GB。
 - 所有读取均为已排除 A 专属区域的最终 Brassica BAM；原始 BAM 未改写。
 

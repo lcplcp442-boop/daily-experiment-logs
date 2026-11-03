@@ -54,8 +54,8 @@ OUT 和 PROJECT 均非 Git 工作树；脚本为未提交状态。
 
 ## 环境信息
 
-- 使用 `analy1` 环境的 samtools、bedtools 及集群 dsub 调度器。
-- XLSX 由 Python 标准库直接处理，不依赖 pandas/openpyxl。
+- 使用 `analy1` 环境的 samtools 1.24、bedtools 2.31.1；集群 dsub 版本未记录。
+- XLSX 由 Python 3.14.7 标准库直接处理，不依赖 pandas/openpyxl。
 - 所有新增结果仅写入 `OUT`，未改写 `PROJECT` 的原始 BAM。
 
 ## 主要参数 / 改动

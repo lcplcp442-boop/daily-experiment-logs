@@ -36,7 +36,7 @@ ROOT 不是 Git 工作树；代码为未提交状态。
 
 ## 环境信息
 
-- 使用 `analy1` 环境的 MACS2、bedtools、samtools 和 dsub。
+- 使用 `analy1` 环境的 MACS2 2.2.9.1、bedtools 2.31.1、samtools 1.24；dsub 版本未记录。
 - 参考 `ZS11.ZH11.fasta` 总长 1,397,962,255 bp，但本批 BAM 的水稻与细胞器 reads 为 0。
 - 峰结果与映射文件统一写入 `ROOT`。
 

@@ -59,8 +59,8 @@ PROJECT 和 OUT 均不是 Git 工作树；脚本为未提交状态。
 
 ## 环境信息
 
-- 主要工具：`/share/home/cpliu25/miniconda3/envs/analy1/bin/samtools`、bedtools、dsub 调度器。
-- XLSX 处理使用 Python 标准库，不依赖 pandas/openpyxl；未安装额外软件。
+- 主要工具：`/share/home/cpliu25/miniconda3/envs/analy1/bin/samtools` 1.24、bedtools 2.31.1；dsub 版本未记录。
+- XLSX 处理使用 Python 3.14.7 标准库，不依赖 pandas/openpyxl；未安装额外软件。
 - 所有新增产物仅写入 `OUT`；`PROJECT` 只读。
 
 ## 主要参数 / 改动

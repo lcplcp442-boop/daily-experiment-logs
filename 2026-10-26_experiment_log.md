@@ -63,7 +63,7 @@
 
 ## 环境信息
 
-- samtools、mosdepth、MACS2、bedtools、featureCounts 2.0.6；featureCounts 使用 RNA/ChIP 各自的 `-s 2/-s 0` 口径。
+- samtools 1.24、mosdepth 0.3.14、MACS2 2.2.9.1、bedtools 2.31.1；featureCounts 2.0.6 使用 RNA/ChIP 各自的 `-s 2/-s 0` 口径；Python 3.11.16，dsub 版本未记录。
 - WGS/Input 原始 BAM 只在 `OUT` 临时排序和建索引；原始目录未改写。
 - 高 CPU 正则/统计任务在计算节点运行，登录节点只做小结果整理。
 

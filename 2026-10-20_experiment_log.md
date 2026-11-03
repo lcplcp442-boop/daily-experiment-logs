@@ -60,8 +60,8 @@ R1/R2 均为未建立 Git 版本库的工作目录，Commit 为“未提交/未�
 
 ## 环境信息
 
-- RNA：R 4.4.3、DESeq2 1.46.0、featureCounts 2.0.6；环境路径 `/share/home/cpliu25/GPT/envs/rnaseq`。
-- ChIP：bedtools、samtools、MACS2、deeptools；软件版本记录见 `R2/logs/software_versions.txt`。
+- RNA：R 4.4.3、DESeq2 1.46.0、featureCounts 2.0.6、Python 3.14.7；环境路径 `/share/home/cpliu25/GPT/envs/rnaseq`。
+- ChIP：samtools 1.24、htslib 1.24、bedtools 2.31.1、MACS2 2.2.9.1、deeptools/bamCoverage 3.5.5、Python 3.11.16、pyBigWig 0.3.22；完整记录见 `R2/logs/software_versions.txt`。
 - 所有大型 BAM 操作在集群计算节点运行；登录节点高 I/O 或高 CPU 任务曾触发 SIGKILL。
 
 ## 主要参数 / 改动

@@ -49,8 +49,8 @@
 
 ## 环境信息
 
-- K43 定量使用 MACS2、bedtools、Python；参数与 002 项目保持一致。
-- RNA 索引使用 HISAT2 2.2.3，`--ss/--exon` 来自 ZS11RS3 注释；计算作业计划为 24–32 CPU。
+- K43 定量使用 MACS2 2.2.9.1、bedtools 2.31.1、Python 3.11.16；参数与 002 项目保持一致。
+- RNA 索引使用 HISAT2 2.2.3，`--ss/--exon` 来自 ZS11RS3 注释；原 BAM 使用 BWA 0.7.19-r1273；计算作业计划为 24–32 CPU；dsub 版本未记录。
 - 当前 RNA BAM 为 BWA 产物，不能作为 HISAT2 验收依据；旧 BAM 在替换完成前保留。
 
 ## 主要参数 / 改动

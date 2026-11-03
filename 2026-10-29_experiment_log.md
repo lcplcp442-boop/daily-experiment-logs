@@ -63,7 +63,7 @@
 ## 环境信息
 
 - HISAT2 2.2.3；参考为 `ZS11.ZH11.fasta`，A/C 与水稻 contig 共 35 条。
-- samtools 1.24、featureCounts 2.0.6、bedtools、dsub 集群调度。
+- samtools 1.24、featureCounts 2.0.6、bedtools 2.31.1、deeptools/bamCoverage 3.5.5、Python 3.11.16；dsub 版本未记录。
 - 新 HISAT2 作业使用 32 CPU、96 GB 申请内存，峰值内存约 83 GB。
 - 区域排除结果从删除了水稻/细胞器 reads 的 MAPQ30 BAM 生成，不创建 `.bai`。
 
